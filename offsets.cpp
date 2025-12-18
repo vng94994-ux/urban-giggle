@@ -84,8 +84,8 @@ namespace offsets {
     uintptr_t ReloadAnimation = 0x1928;
     uintptr_t LWProjectile_ActivateRemovedTimestamp = 0x29F8;
  
-    uintptr_t ProjectileSpeed = 0x26E4;
-    uintptr_t ProjectileGravity = 0x26E8;
+    uintptr_t ProjectileSpeed = 0x24f4;
+    uintptr_t ProjectileGravity = Offsets::ProjectileSpeed + 0x4;
     uintptr_t MaxTargetingAimAdjustPerSecond = 0x2338;
     uintptr_t ServerWorldTimeSecondsDelta = 0x2E8;
  
